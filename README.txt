@@ -13,7 +13,7 @@ In the root folder
 - The code can be compiled without METIS using "METIS=NO" is the runtime parallelisation is not used.
 - The code can be compiled with meshless method using "MM=YES". The Sukumar's maxent library needs to be provided by default in path-to-MuPhiSim/lib or by using "MAXENT_LIB_PATH=path/to/maxent-lib" to specify its path.
 
-when TYPE=SEQUENTIAL is used, PETSCMPI=YES must be used to compile the code if pestc is complied in parallel
+When TYPE=SEQUENTIAL is used, PETSCMPI=YES must be used to compile the code if pestc is complied in parallel
 
 Once the code is compile sucessfully, update PATH to make the executable MuPhiSim available anywhere by adding the following line to .bashrc
 
